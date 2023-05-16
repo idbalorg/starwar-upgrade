@@ -25,7 +25,7 @@ function Movies() {
 
   useEffect(() => {
     fetchMovie();
-  }, );
+  }, []);
 
   return (
     <>
