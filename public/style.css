@@ -1,0 +1,47 @@
+.svg{
+    fill: yellow;
+}
+
+body{
+    background-color: black;
+    color: azure;
+    padding:1% 10% 20%;
+}
+
+.header{
+    width: 30em;
+    margin: 5% auto 10% auto;
+}
+
+.card{
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    
+}
+.card-item:hover{
+    box-shadow: 10px 10px 10px blue;
+    transform: translateY(5px);
+}
+
+hr{
+    border-color: brown;
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.card-item{
+    padding: 4%;
+    background-color: blueviolet;
+    border-radius: 5px;
+    box-shadow:10px 10px 10px rgba(185, 13, 13, 0.2) ;
+    transition: all 0.3s ease-in-out;
+   
+}
+
+
+
+
